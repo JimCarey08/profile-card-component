@@ -1,0 +1,111 @@
+  :root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  html{
+    font-size: 18px;
+  }
+  body{
+    background-image: url(../images/bg-pattern-bottom.svg),
+                      url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 160% -80%, -40% 160%;
+    background-color: var(--dark-cyan);
+
+
+  }
+  .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+  #victor-image{
+    position: absolute;
+    left: 36%;
+    top: 22%;
+  }
+  #victor-image img{
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  #top-card img{
+    border-radius: 8px 8px 0 0;
+  }
+  #name{
+    text-align: center;
+  }
+  #name p:nth-child(1){
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 700;
+  }
+  span {
+    font-weight: 400;
+  }
+  #name p:nth-child(2){
+    font-weight: 400;
+  }
+  hr{
+    opacity: 0.3;
+    margin: 30px 25px;
+  }
+  .data-row{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .info{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  .info p + p{
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .info p small{
+    font-weight: 400;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
